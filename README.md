@@ -9,7 +9,7 @@
   ## For Contributors
    - Always use branches and generate a pull request for merging
    - Dont't merge your own pull requests
-   - Do pull before working in a while
+   - Do pull before working on something new
 
   ## After Cloning
   - Change your database authentication settings in db.php
