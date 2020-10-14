@@ -15,15 +15,13 @@
 
 
 
-
+        <?php
+            if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                echo "<p>Form Received:</p>";
+                echo "<p>".$_POST['fname']."</p>";
+                echo "<p>".$_POST['email']."</p>";
+            }
+        ?>
         <?php include('footer.php');?>
     </body>
 </html>
-
-<?php
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        echo "<p>Form Received:</p>";
-        echo "<p>".$_POST['fname']."</p>";
-        echo "<p>".$_POST['email']."</p>";
-    }
-?>
