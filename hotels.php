@@ -1,0 +1,1 @@
+<div>Hotels</div>
