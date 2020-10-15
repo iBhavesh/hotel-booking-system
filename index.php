@@ -1,4 +1,4 @@
-<?php_check_syntax
+<?php
     echo "Working";
     
 ?>
