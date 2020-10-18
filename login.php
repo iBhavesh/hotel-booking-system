@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Welcome To Login</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/login_style.css">
+</head>
+<body>
+  <div class="loginbox">
+  <img src="./assets/images/login.jpg" alt="login" style="width:100px;height:100px;">
+    <h1>Login Here</h1>	
+    <form>
+    	<p>Username</p>
+    	<input type="text" name="" placeholder="Enter Username">
+    	<p>Password</p>
+    	<input type="password" name="" placeholder="Enter Password">
+    	<input type="Submit" name="" value="Login">
+    	<a href="a">Forgot Password</a><br>
+    	<a href="a">Don't have an account?</a>
+    	<a href="signup_nidhi.php">Signup</a>
+    </form>
+  </div>
+</body>
+</html>
