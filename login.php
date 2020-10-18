@@ -6,7 +6,7 @@
 </head>
 <body>
   <div class="loginbox">
-  <img src="./assets/images/login.jpg" alt="login" style="width:100px;height:100px;">
+  <img src="./assets/images/login.jpg" class="login">
     <h1>Login Here</h1>	
     <form>
     	<p>Username</p>
@@ -16,7 +16,7 @@
     	<input type="Submit" name="" value="Login">
     	<a href="a">Forgot Password</a><br>
     	<a href="a">Don't have an account?</a>
-    	<a href="signup_nidhi.php">Signup</a>
+    	<a href="signup.php">Signup</a>
     </form>
   </div>
 </body>

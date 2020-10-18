@@ -1,27 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-    <?php include('head.php'); ?>
-    <body>
-        <!----Signup div Start-=--->    
-        <div class="signup-div">
-            <form action="" method="post">
-                <input type="text" name="fname" id="" required><br>
-                <input type="email" name="email" id="" required><br>
-                <input type="submit" value="Sign Up">
-            </form>
-        </div>
+<head>
+	<title>Signup Form</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/signup_style.css">
+</head>
+<body>
+    <div class="signupbox">
+    	<h2>Signup</h2>
+    	<form>
+    		<input type="text" placeholder="First Name" required>
+    		<input type="text" placeholder="Last Name" required>
+    		<input type="text" placeholder="Email" required>
+    		<input type="password" placeholder="Password" required>
+    		<input type="number" placeholder="Mobile Number" required>
+    		<input type="submit" value="Submit">
+    	</form>
 
-        <!----Signup div End--->
 
 
-
-        <?php
-            if ($_SERVER["REQUEST_METHOD"] == "POST") {
-                echo "<p>Form Received:</p>";
-                echo "<p>".$_POST['fname']."</p>";
-                echo "<p>".$_POST['email']."</p>";
-            }
-        ?>
-        <?php include('footer.php');?>
-    </body>
+    </div>
+</body>
 </html>
